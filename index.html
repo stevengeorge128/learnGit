@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8"/>
+    <title>PriceCo</title>
+    <link id="cssFile" rel="stylesheet" type="text/css" href="styleA.css">
+  </head>
+  
+  <body>
+
+    <div id="header">
+      <div>
+        <img id="pricecoLogo" src="./img/cart.png" alt="logo" >
+        <h1>PriceCo</h1>
+      </div>
+      <div>Like Costco, but not as good...</div>
+    </div>
+    
+    <div id="navigation">
+      <a class="navButton" href="#">Departments</a>
+      <a class="navButton" href="#">Shop</a>
+      <a class="navButton" href="#">Cart</a>
+      <a class="navButton" href="#">Account</a>
+    </div>
+      
+    <div id="content">
+
+      <div class="productGroup" id="productsColA">
+        
+        <div class="product">
+          <img class="productImg" src="./img/laptop.jpg" alt="product">
+          <div class="productDesc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+        
+        <div class="product">
+          <img class="productImg" src="./img/watch.jpg" alt="product">
+          <div class="productDesc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+        
+        <div class="product">
+          <img class="productImg" src="./img/iphone.jpg" alt="product">
+          <div class="productDesc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+      
+      </div>
+      
+      <div class="productGroup"  id="productsColB">
+        
+        <div class="product">
+          <img class="productImg" src="./img/knife.jpg" alt="product">
+          <div class="productDesc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+        
+        <div class="product">
+          <img class="productImg" src="./img/spray.jpg" alt="product">
+          <div class="productDesc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+        
+        <div class="product">
+          <img class="productImg" src="./img/tent.jpg" alt="product">
+          <div class="productDesc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+        </div>
+      
+      </div>
+    
+    </div>
+
+    <script>
+      function addStyleSheet(sheetName) {
+        document.getElementById('cssFile').href = sheetName;
+      }
+    </script>
+    
+    <a href="#" class="styleButton" id="styleA" onclick="addStyleSheet('styleA.css')">Style A</a>
+    <a href="#" class="styleButton" id="styleB" onclick="addStyleSheet('styleB.css')">Style B</a>
+    <a href="#" class="styleButton" id="styleC" onclick="addStyleSheet('styleC.css')">Style C</a>
+
+  </body>
+
+</html>
+
